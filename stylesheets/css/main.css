@@ -12,8 +12,8 @@ nav ul {
 
 #introduction {
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 50%;
+    right: 50%;
 
     margin: auto;
 }
