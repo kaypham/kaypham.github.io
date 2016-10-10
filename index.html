@@ -12,18 +12,18 @@
         			<li><a href="#contact-form">Contact Me</a></li>
     			</ul>
 		</nav>
-		<div class="container">
+		<div class="introduction">
         		<h1>Hi! I'm Han Pham!</h1>
 				<p> And I LOVE making software applications </p>
 		</div>
 		
 		<div id="contact-form">
 			<form action="mailto:hgpham17@gmail.com" method="POST">
-				<input type="text" placeholder="Name"/>
-				<input type="email" placeholder="E-mail Address" />
-				<textarea placeholder="What do you want to tell me?"> </textarea>
-				<input type="submit" value="Send"/>
-			</form>
+    				<input type="text" name="field1" placeholder="Full Name" />
+    				<input type="email" name="field2" placeholder="Email" />
+    				<textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+    				<input type="button" value="Send Message" />
+ 			</form>
 		</div>
 		
 		<footer>
